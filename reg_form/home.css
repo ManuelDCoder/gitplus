@@ -1,0 +1,31 @@
+*,* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.dashboard{
+    width: 100%;
+    height: 80vh;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.demo {
+    /* border:1px solid blue; */
+    border-collapse:collapse;
+    padding:5px;
+}
+.demo th {
+    border-radius: 3px;
+    padding:5px;
+    color: white;
+    /* background: #f44336; */
+}
+.demo td {
+    /* border:1px solid #C0C0C0; */
+    /* background-color: aqua; */
+    padding:5px;
+}
